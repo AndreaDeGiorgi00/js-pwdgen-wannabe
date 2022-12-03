@@ -17,11 +17,11 @@ Infine scrivi sulla pagina nomecognomecolorepreferito21*/
 */
 
 
-const nome = prompt("qual\' è il tuo nome")+" "
+const nome = prompt("qual\' è il tuo nome");
 ////console.log(nome);
-const cognome = prompt("qual\' è il tuo cognome")+" "
+const cognome = prompt("qual\' è il tuo cognome");
 ////console.log(cognome);
-const colorePreferito = prompt("qual\' è il tuo colore preferito?")+" "
+const colorePreferito = prompt("qual\' è il tuo colore preferito?");
 console.log(colorePreferito);
 ////console.log(colorePreferito);
 const testoFinale = nome + cognome + colorePreferito + "21"
@@ -29,5 +29,5 @@ console.log(testoFinale);
 
 const posizioneTesto = document.getElementById("testo")
 ////console.log(posizioneTesto);
-posizioneTesto.innerHTML = (testoFinale);
+posizioneTesto.innerText = (testoFinale);
 
